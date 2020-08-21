@@ -1,0 +1,6 @@
+<div class="boxgrid">
+  <div *ngFor="let box of boxes; let i = index">
+    <div [ngStyle]="{'background-color' : showBallVisible && i === pos ? '#f32' : posAnt === i ? 'pink': '#fff'}"  (click)="showBall(i)">
+    </div>
+  </div>
+</div>
