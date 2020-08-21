@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -13,7 +12,6 @@ export class AppComponent implements OnInit {
   pos: number;
   posAnt: number;
   showBallVisible = false;
-  showBallStatus: string;
   ngOnInit(): void {
     this.showBall();
   }
